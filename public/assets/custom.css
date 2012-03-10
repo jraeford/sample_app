@@ -12,7 +12,7 @@ header {
 
 header img {
     padding: 1em;
-    background: #ffffff
+    background: #ffffff;
 }
 
 section {
@@ -25,12 +25,11 @@ section {
 section h1 {
     font-size: 200%;
 }
-    }
 
 /* Links */
 
 a {
-    color: : #09c;
+    color: #09c;
     text-decoration: none;
 }
 
@@ -58,7 +57,7 @@ nav ul {
 nav ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 0.2em
+    padding: 0.2em;
 }
 
 nav ul li a {
@@ -94,6 +93,7 @@ a.signup_button {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
+}
 
 footer nav {
   float: none;
@@ -128,5 +128,9 @@ td.sidebar {
 
 .profile img.gravatar {
     border: 1px solid #999;
-    margin-bottom: -15px
+    margin-bottom: -15px;
+}
+
+div.field, div.actions {
+    margin-bottom: 10px;
 }
