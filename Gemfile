@@ -25,3 +25,8 @@ group :test do
   gem 'webrat'
   gem 'factory_girl_rails'
 end
+
+group :production do
+  gem 'pg'
+  # pg from http://stackoverflow.com/questions/6410623/heroku-error-when-launch-rails3-1-app-missing-postgres-gem
+end
