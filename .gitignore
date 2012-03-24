@@ -4,3 +4,11 @@ log/*.log
 tmp/
 .sass-cache/
 .idea/workspace.xml
+*.log
+tmp/**/*
+tmp/*
+doc/api
+doc/app
+*.swp
+*-
+.DS_Store
